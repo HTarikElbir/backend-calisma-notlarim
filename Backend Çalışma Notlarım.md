@@ -66,7 +66,7 @@ public class Course
 
 Bu dosyaları wwwroot klasörü altında yeni bir dosya oluşturup gruplayabiliriz.
 
-![image.png](image%201.png)
+![image.png](image1.png)
 
 # Bootstrap
 
@@ -78,7 +78,7 @@ Eklenecek
 
 Layout dosyamızı düzenliyoruz.
 
-![image.png](image%202.png)
+![image.png](image2.png)
 
 Ortak olmayan noktalar için body bloğu içerisinde @RenderBody() ile bilgiler çağrılır.
 
@@ -96,11 +96,11 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 
 Shared klasörü altında yeni bir dosya oluşturuyoruz. ( _NavBar.cshtml )
 
-![image.png](image%203.png)
+![image.png](image3.png)
 
  İçerisinde her sayfa düzeninde tekrar eden navigasyon barının bilgileri olacak şekilde düzenliyoruz.
 
-![image.png](image%204.png)
+![image.png](image4.png)
 
 Ve kullanılacak noktalardan bu layout bilgisini alıyoruz.
 
@@ -108,13 +108,13 @@ Ve kullanılacak noktalardan bu layout bilgisini alıyoruz.
 @await Html.PartialAsync(”_Navbar”)
 ```
 
-![image.png](image%205.png)
+![image.png](image5.png)
 
 # Repository Sınıfı
 
 Halihazırda daha çalışmalarımın başlarında olduğum için temel konuları kapsayan projemde verileri tutması için bir yapıya ihtiyaç duyuyorum. Daha veri tabanı vs. gibi konuları detaylı ele almadığım için şimdilik repository sınıfı oluşturacağım.
 
-![image.png](image%206.png)
+![image.png](image6.png)
 
 Gerekli durumlarda [Repository.Courses](http://Repository.Courses) altından bilgileri alacağım.
 
