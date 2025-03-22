@@ -37,7 +37,7 @@ MVC yapısındaki **view**, uygulamanın kullanıcı arayüzünü oluşturan kat
 
 Viewlar içerisinde kullanacağımız modelleri gerekli View kısımlarında tanıtmamız gerekiyor. Yoksa modeller üzerindeki bilgilere ulaşamayız. Örneğin aşağıda ilk satırda @model Course ile bir model tanıtıldı. Ardından gerekli olduğu noktalarda @Model.Id, @Model,Title sözdizimleriyle gerekli id, title bilgileri modelden alınmıştır.
 
-![image.png](image.png)
+![image.png](/images/image.png)
 
 # Models
 
@@ -66,7 +66,7 @@ public class Course
 
 Bu dosyaları wwwroot klasörü altında yeni bir dosya oluşturup gruplayabiliriz.
 
-![image.png](image1.png)
+![image.png](/images/image%201.png)
 
 # Bootstrap
 
@@ -78,7 +78,7 @@ Eklenecek
 
 Layout dosyamızı düzenliyoruz.
 
-![image.png](image2.png)
+![image.png](/images/image%202.png)
 
 Ortak olmayan noktalar için body bloğu içerisinde @RenderBody() ile bilgiler çağrılır.
 
@@ -96,11 +96,11 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 
 Shared klasörü altında yeni bir dosya oluşturuyoruz. ( _NavBar.cshtml )
 
-![image.png](image3.png)
+![image.png](/images/image%203.png)
 
  İçerisinde her sayfa düzeninde tekrar eden navigasyon barının bilgileri olacak şekilde düzenliyoruz.
 
-![image.png](image4.png)
+![image.png](/images/image%204.png)
 
 Ve kullanılacak noktalardan bu layout bilgisini alıyoruz.
 
@@ -108,13 +108,13 @@ Ve kullanılacak noktalardan bu layout bilgisini alıyoruz.
 @await Html.PartialAsync(”_Navbar”)
 ```
 
-![image.png](image5.png)
+![image.png](/images/image%205.png)
 
 # Repository Sınıfı
 
 Halihazırda daha çalışmalarımın başlarında olduğum için temel konuları kapsayan projemde verileri tutması için bir yapıya ihtiyaç duyuyorum. Daha veri tabanı vs. gibi konuları detaylı ele almadığım için şimdilik repository sınıfı oluşturacağım.
 
-![image.png](image6.png)
+![image.png](/images/image%206.png)
 
 Gerekli durumlarda [Repository.Courses](http://Repository.Courses) altından bilgileri alacağım.
 
